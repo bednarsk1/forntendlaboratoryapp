@@ -1,0 +1,3 @@
+module.exports=[70957,a=>{"use strict";var b=a.i(87924);a.i(30485);var c=a.i(31052),d=a.i(29264),e=a.i(50944);function f(){let a=(0,e.useRouter)();return(0,b.jsxs)("div",{className:"p-6 bg-white shadow rounded",children:[(0,b.jsx)("h1",{className:"text-xl font-bold mb-4",children:"Wylogowanie"}),(0,b.jsx)("form",{onSubmit:b=>{b.preventDefault(),(0,c.signOut)(d.auth),a.push("/")},children:(0,b.jsx)("button",{type:"submit",className:"bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded",children:"Wyloguj"})})]})}a.s(["default",()=>f])}];
+
+//# sourceMappingURL=app_%28protected%29_user_signout_page_39898726.js.map

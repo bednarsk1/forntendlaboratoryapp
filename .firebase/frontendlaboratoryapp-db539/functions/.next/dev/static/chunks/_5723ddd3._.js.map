@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/piotrek/Desktop/Wsei/NextJS/frontendlaboratoryapp/app/%28protected%29/layout.jsx"],"sourcesContent":["'use client'\nimport { useAuth } from \"@/app/lib/AuthContext\";\nimport { useLayoutEffect } from \"react\";\nimport { redirect } from 'next/navigation';\nimport { usePathname } from 'next/navigation';\n\nfunction Protected({children}) {\n    const { user } = useAuth();\n    const returnUrl = usePathname();\n\n    useLayoutEffect(() => {\n        if (!user){\n            redirect(`/user/signin?returnUrl=${returnUrl}`);\n        }\n    }, []);\n    return ( <>\n    { children }\n    </> );\n}\n\nexport default Protected;"],"names":[],"mappings":";;;;;AACA;AACA;AACA;;;AAHA;;;;;AAMA,SAAS,UAAU,EAAC,QAAQ,EAAC;;IACzB,MAAM,EAAE,IAAI,EAAE,GAAG,IAAA,uIAAO;IACxB,MAAM,YAAY,IAAA,oJAAW;IAE7B,IAAA,gLAAe;qCAAC;YACZ,IAAI,CAAC,MAAK;gBACN,IAAA,iJAAQ,EAAC,CAAC,uBAAuB,EAAE,WAAW;YAClD;QACJ;oCAAG,EAAE;IACL,qBAAS;kBACP;;AAEN;GAZS;;QACY,uIAAO;QACN,oJAAW;;;KAFxB;uCAcM"}},
+    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":["file:///Users/piotrek/Desktop/Wsei/NextJS/frontendlaboratoryapp/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0]}}]
+}

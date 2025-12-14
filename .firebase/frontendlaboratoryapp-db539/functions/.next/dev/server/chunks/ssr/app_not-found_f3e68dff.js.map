@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/piotrek/Desktop/Wsei/NextJS%20copy/frontendlaboratoryapp/app/not-found.js"],"sourcesContent":["export default function NotFound() {\n  return (\n    <div className=\"flex flex-col items-center justify-center h-full p-10 text-center\">\n      <h1 className=\"text-4xl font-bold text-gray-800 mb-4\">\n        404 — Nie znaleziono strony\n      </h1>\n\n      <p className=\"text-gray-600 mb-6\">\n        Podana ścieżka nie istnieje lub została przeniesiona.\n      </p>\n\n      <a\n        href=\"/\"\n        className=\"px-6 py-3 bg-blue-600 text-white rounded shadow hover:bg-blue-700 transition\"\n      >\n        Powrót do strony głównej\n      </a>\n    </div>\n  );\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAwC;;;;;;0BAItD,8OAAC;gBAAE,WAAU;0BAAqB;;;;;;0BAIlC,8OAAC;gBACC,MAAK;gBACL,WAAU;0BACX;;;;;;;;;;;;AAKP"}}]
+}

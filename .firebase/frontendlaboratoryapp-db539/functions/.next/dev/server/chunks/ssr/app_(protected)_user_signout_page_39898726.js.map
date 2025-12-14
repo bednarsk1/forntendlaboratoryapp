@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/piotrek/Desktop/Wsei/NextJS/frontendlaboratoryapp/app/%28protected%29/user/signout/page.js"],"sourcesContent":["'use client'\n\nimport { signOut } from \"firebase/auth\";\nimport { auth } from \"@/app/lib/firebase\";\nimport { useRouter } from \"next/navigation\";\n\nexport default function LogoutForm() {\n\n  const router = useRouter();\n\n  const onSubmit = (e) => {\n    e.preventDefault();\n    signOut(auth);\n    router.push(\"/\");\n  };\n\n  return (\n    <div className=\"p-6 bg-white shadow rounded\">\n      <h1 className=\"text-xl font-bold mb-4\">Wylogowanie</h1>\n\n      <form onSubmit={onSubmit}>\n        <button \n          type=\"submit\"\n          className=\"bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded\">\n          Wyloguj\n        </button>\n      </form>\n    </div>\n  );\n}"],"names":[],"mappings":";;;;;AAEA;AAAA;AACA;AACA;AAJA;;;;;AAMe,SAAS;IAEtB,MAAM,SAAS,IAAA,+IAAS;IAExB,MAAM,WAAW,CAAC;QAChB,EAAE,cAAc;QAChB,IAAA,6KAAO,EAAC,8HAAI;QACZ,OAAO,IAAI,CAAC;IACd;IAEA,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAyB;;;;;;0BAEvC,8OAAC;gBAAK,UAAU;0BACd,cAAA,8OAAC;oBACC,MAAK;oBACL,WAAU;8BAA2D;;;;;;;;;;;;;;;;;AAM/E"}}]
+}

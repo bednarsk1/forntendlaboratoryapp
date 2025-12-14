@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file:///Users/piotrek/Desktop/Wsei/NextJS/frontendlaboratoryapp/app/%28protected%29/wordsearch/page.js"],"sourcesContent":["import WordSearch from \"../../components/WordSearch/WordSearch.jsx\";\n\nexport default function WordSearchPage() {\n  return (\n    <div className=\"p-6\">\n      <WordSearch />\n    </div>\n  );\n}"],"names":[],"mappings":";;;;;;;;;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;;;;;;;;;;AAGP"}}]
+}
