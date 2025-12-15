@@ -10,8 +10,7 @@ export default function AboutPage() {
           Autor
         </h2>
         <p className="text-gray-700">
-          Nazywam się <strong>Piotrek</strong> i jestem studentem kierunku
-          związanego z informatyką. Aplikacja została wykonana w ramach zajęć
+          Nazywam się <strong>Piotrek</strong> i jestem studentem informatyki. Aplikacja została wykonana w ramach zajęć
           laboratoryjnych z technologii webowych.
         </p>
       </section>
